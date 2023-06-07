@@ -97,4 +97,4 @@ st.markdown('Resolution status')
 fig1, ax1 = plt.subplots()
 labels = subset_data['Resolution'].unique()
 ax1.pie(subset_data['Resolution'].value_counts(), labels=labels, autopct='%1.1f%%', startangle=20)
-st.pyplot(fig1)
+st.pyplot(fig1)"""
